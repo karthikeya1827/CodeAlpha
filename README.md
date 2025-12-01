@@ -53,4 +53,24 @@ To classify emotions from speech signals using Mel-Frequency Cepstral Coefficien
 📈 **Training Visualization**:  
 The plot below shows training vs validation accuracy across 50 epochs.
 Train Accuracy ↑ steadily, Validation Accuracy stabilizes around ~80% after ~40 epochs.
+
 ![WhatsApp Image 2025-12-01 at 16 48 21](https://github.com/user-attachments/assets/b4d023ab-ffd1-452d-be09-84a5d00b0884)
+
+
+---
+
+## 🧰 Libraries Used
+- `os`, `librosa`, `numpy`, `pandas`
+- `matplotlib`, `seaborn`
+- `sklearn` (LabelEncoder, train_test_split)
+- `tensorflow.keras` (Sequential, Conv1D, MaxPooling1D, Dense, Dropout, Flatten)
+- `kagglehub` for dataset download
+
+---
+
+## 🚀 How to Run
+1. Clone the repo
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   python emotion_recognition.py
